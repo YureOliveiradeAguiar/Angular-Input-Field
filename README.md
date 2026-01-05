@@ -11,7 +11,7 @@
 ```
 
 You can also type a mask according to these tokens:
-### Mask Supported tokens
+<strong>Mask Supported tokens</strong><br>
 <table>
   <thead>
     <tr>
@@ -38,8 +38,11 @@ You can also type a mask according to these tokens:
     </tr>
   </tbody>
 </table>
-* Mask: `NNN-LLLL`
-* Input: `12a3BcDe`
-* Output: `123-BcDe`
+
+<ul>
+    <li>Mask: `NNN-LLLL`</li>
+    <li>Input: `12a3BcDe`</li>
+    <li>Output: `123-BcDe`</li>
+</ul>
 
 You only pass the label and placeholder for display and the form control name for serving it to the reactive form's form builder. This one will handle the error messages, together with the built in features.
