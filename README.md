@@ -9,6 +9,8 @@
     mask="LLL-NNN"
 />
 ```
+* You pass the label and placeholder for display, the form control name for serving it to the reactive form's form builder and, optionally, a mask for filtering the input.<br>
+* The reactive form will handle the error messages, together with the built in features.
 
 You can also type a mask according to these tokens:
 <table>
@@ -43,5 +45,3 @@ You can also type a mask according to these tokens:
     <li>Input: `12a3BcDe`</li>
     <li>Output: `123-BcDe`</li>
 </ul>
-
-You only pass the label and placeholder for display and the form control name for serving it to the reactive form's form builder. This one will handle the error messages, together with the built in features.
