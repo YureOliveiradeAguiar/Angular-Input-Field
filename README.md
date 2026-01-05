@@ -10,6 +10,13 @@
 />
 ```
 You can also type a mask according to these tokens:
+ * ### Mask Supported tokens
+ * | Token | Description |
+ * |------|-------------|
+ * | `N`  | Numeric character (`0–9`) |
+ * | `L`  | Alphabetic character (`A–Z`, `a–z`) |
+ * | `A`  | Alphanumeric characters |
+ * | `*`  | Any character (N + L) (`A–Z`, `a–z`, `0–9`) |
 <h3>Supported tokens</h3>
 
 <table>
