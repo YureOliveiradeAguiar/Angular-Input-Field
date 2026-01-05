@@ -10,14 +10,7 @@
 />
 ```
 You can also type a mask according to these tokens:
- * ### Mask Supported tokens
- * | Token | Description |
- * |------|-------------|
- * | `N`  | Numeric character (`0–9`) |
- * | `L`  | Alphabetic character (`A–Z`, `a–z`) |
- * | `A`  | Alphanumeric characters |
- * | `*`  | Any character (N + L) (`A–Z`, `a–z`, `0–9`) |
-<h3>Supported tokens</h3>
+### Mask Supported tokens
 
 <table>
   <thead>
@@ -45,9 +38,8 @@ You can also type a mask according to these tokens:
     </tr>
   </tbody>
 </table>
-
- * - Mask: `NNN-LLLL`
- * - Input: `12a3BcDe`
- * - Output: `123-BcDe`
+- Mask: `NNN-LLLL`
+- Input: `12a3BcDe`
+- Output: `123-BcDe`
 
 You only pass the label and placeholder for display and the form control name for serving it to the reactive form's form builder. This one will handle the error messages, together with the built in features.
