@@ -11,7 +11,6 @@
 ```
 
 You can also type a mask according to these tokens:
-<strong>Mask Supported tokens</strong><br>
 <table>
   <thead>
     <tr>
